@@ -18,7 +18,7 @@ Hi! I am developer of travellian. I created it using next js framework. I consis
 ## Create a production base application.
 	Use yarn buil or npm run build to build deployment package
 
-## Folder Structure 
+## Project Component Hierarchy 
 
  - Pages
 ---- Containers
