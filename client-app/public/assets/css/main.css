@@ -1,0 +1,204 @@
+
+@media (min-width: 640px) and (max-width: 820px) {
+  .booking {
+    visibility: hidden;
+  }
+
+  .booking-mobile {
+    display: block;
+  }
+
+  .starting-end-mobile-booking {
+  }
+}
+
+@media (min-width: 820px) {
+  .booking-mobile {
+    display: none !important;
+  }
+}
+
+@media (max-width: 640px) {
+  .booking {
+    visibility: hidden;
+  }
+  .booking-mobile {
+    display: block;
+  }
+
+  .card-title {
+    font-size: 16px !important;
+  }
+
+  .sub-title {
+    display: none;
+  }
+
+  .main-nav li a {
+    font-size: 10px !important;
+  }
+  .title > h2 {
+    font-size: 16px;
+  }
+  .nav-header {
+    font-size: 14px !important;
+  }
+  .starting-end-booking {
+    padding: 12px !important;
+    display: none !important;
+  }
+  .styled-select {
+    font-size: 12px !important;
+  }
+  .input-text {
+    font-size: 12px !important;
+  }
+
+  .card {
+    height: 230px !important;
+    width: 200px !important;
+  }
+
+  .item {
+    height: 150px !important;
+    width: 100px !important;
+  }
+  .booking {
+    height: 50px !important;
+  }
+  .title-handle {
+    font-size: 18px !important;
+  }
+  .title h2 {
+    font-size: 18px !important;
+  }
+}
+
+.title > h2 {
+  font-size: 28px;
+  border-bottom: 2px solid #ff4500;
+}
+.Swrapper {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  gap: 18px;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+.card {
+  height: 380px;
+  width: 300px;
+}
+
+.item {
+  height: 300px;
+  width: 200px;
+  background: grey;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.title > p {
+  font-size: 10px;
+  line-height: 28px;
+}
+.circle {
+  background-color: white;
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+}
+/* .circle.active-circle {
+  background-color: #ffa057;
+} */
+
+[data-twe-carousel-active] {
+  background-color: #ffa057;
+}
+
+footer {
+  height: 100px;
+  background: #ffa057;
+  color: white;
+}
+#wrapper {
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+  font-family: "Tenor Sans", sans-serif;
+}
+.nav-header {
+  font-size: 34px;
+  font-weight: 600;
+}
+.main-nav li a {
+  font-size: 16px;
+  color: white;
+  font-weight: 700;
+}
+.main-nav li a.active {
+  border-bottom: 2px solid #ff4500;
+}
+.main-nav li a {
+  padding-bottom: 5px;
+}
+.booking {
+  height: 100px;
+}
+
+.far-end-booking {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background: #ff4500;
+  border-radius: 0px 10px 10px 0px;
+  padding: 10px;
+}
+
+.title-handle {
+  font-size: 28px;
+}
+
+.starting-end-booking {
+  flex-basis: 50%;
+  background: white;
+  padding: 20px;
+  display: flex;
+}
+.input-text {
+  font-size: 18px;
+  color: rgb(169, 167, 167);
+}
+
+input:focus {
+  outline: none;
+}
+input:active {
+  outline: none;
+}
+select:focus {
+  outline: 0px; /* replace the focus outline removed with 'outline: none' */
+}
+
+.styled-select {
+  font-size: 18px;
+  border-radius: 0;
+  border: none;
+  background: transparent;
+  background: url("../images/down-arrow.png") no-repeat;
+  background-position: calc(100% - 0.75rem) center !important;
+  -moz-appearance: none !important;
+  -webkit-appearance: none !important;
+  appearance: none !important;
+  padding-right: 3rem !important;
+
+  color: rgb(169, 167, 167);
+}
+select.options {
+  font-size: 18px;
+  color: rgb(169, 167, 167);
+}
+.direction-rtl {
+  direction: rtl;
+}
