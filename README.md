@@ -2,7 +2,7 @@
 
 # Welcome to Travellian!
 
-Hi! I am developer of travellian. I created it using next js framework. I consists menus, popular places and special offers for the hotels..
+Hi! I am developer of travellian. I created it using next js framework. I consist menus, popular places and special offers for the hotels..
 
     enter code here
 
